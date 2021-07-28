@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/friendHead"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/chat_background_default"
+        android:src="@drawable/ic_action_head_icon_default" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/messageBox">
+
+        <TextView
+            android:id="@+id/friendName"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_marginTop="5dp"
+            android:autoSizeTextType="uniform"
+            android:text="用户名"
+            android:textColor="@color/chat_message_default" />
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/chat_background_default"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="消息测试测试测试\nThe quick brown fox jumps over the lazy dog.\n那只灵活的棕色狐狸跳过懒狗"
+                android:textColor="@color/chat_name_default"
+                android:id="@+id/textMessage"
+                android:layout_margin="10dp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageMessage"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/chat_background_default"
+        android:id="@+id/myHead"
+        android:src="@drawable/ic_action_head_icon_default" />
+
+</LinearLayout>

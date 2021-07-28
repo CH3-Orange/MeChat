@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fffef8</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="clicked_color">#55bb8a</color>
+    <color name="unclicked_color">#C8C8C8</color>
+    <color name="chat_name_default">#000000</color>
+    <color name="chat_message_default">#7A7979</color>
+    <color name="chat_background_default">#F1EEEE</color>
+    <color name="appbar_background_default">#fffef8</color>
+    <color name="chat_input_bcakground_default">#ffffff</color>
+
+</resources>
