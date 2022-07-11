@@ -1,5 +1,6 @@
 # MeChat
-MeChat Android客户端，java、软件工程课程设计，仅供学习参考
+MeChat Android客户端，java、软件工程课程设计，仅供学习参考。
+项目不再维护（果然屎山是这样的2333 ，整体设计上没有使用一个很明确的架构或者设计模式，就图一乐吧
 
 ## 说明 
 
@@ -7,7 +8,7 @@ MeChat Android客户端，java、软件工程课程设计，仅供学习参考
 - 客户端需要配合服务端和mysql数据库进行交互，（这里数据库和客户端交互不是很好，代码里面已经隐去mysql的用户密码和服务器地址）
 - 后续可能会进行维护，维护大概率会重构，也不排除简单修改这个屎山2333
 - 有关MeChat服务端以及群聊机器人的项目详见[这里: MeChat-server](https://github.com/CH3-Orange/MeChat-server)
-
+- Mysql表结构文件放在了[这里: MeChat-server jdbctest-struct.sql](https://github.com/CH3-Orange/MeChat-server/blob/main/jdbctest-struct.sql)，具体使用可以看一下[MeChat-server](https://github.com/CH3-Orange/MeChat-server)中的说明，有疑问欢迎邮箱~（相信会找到的
 ## 一些图片
 
 **登录页面**
